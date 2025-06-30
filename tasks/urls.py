@@ -7,7 +7,8 @@ from .views import (
     TagListView,
     TagCreateView,
     TagUpdateView,
-    TagDeleteView, change_status,
+    TagDeleteView,
+    change_status,
 )
 
 app_name = "tasks"

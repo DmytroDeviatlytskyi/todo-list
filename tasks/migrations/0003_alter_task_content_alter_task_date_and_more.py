@@ -6,23 +6,23 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('tasks', '0002_alter_task_options'),
+        ("tasks", "0002_alter_task_options"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='task',
-            name='content',
+            model_name="task",
+            name="content",
             field=models.CharField(max_length=63),
         ),
         migrations.AlterField(
-            model_name='task',
-            name='date',
+            model_name="task",
+            name="date",
             field=models.DateTimeField(auto_now=True),
         ),
         migrations.AlterField(
-            model_name='task',
-            name='is_done',
+            model_name="task",
+            name="is_done",
             field=models.BooleanField(default=False),
         ),
     ]
